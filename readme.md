@@ -8,6 +8,7 @@ So I'm trying to make Vector2, Vector3, and the whole simulation in C++ first!
 # Classes
 
 | Class | Description |
+| --- | --- |
 | *main* | Where the simulation will be processed |
 | *vec3* and *vec2* | 2D and 3D Vector implementations, with + - / \* \[] operators, dot(vec), cross(vec), and normalize() |
 
