@@ -24,6 +24,7 @@ class vec3 {
 	vec3<T> operator+(const vec3<T>& otherVec);
 	vec3<T> operator-(const vec3<T>& otherVec);
 	
+	float magnitude(); // Return the Magnitude of this vec3
 	vec3<T> normalize(); // Return the Unit Vector of this vec3
 	float dot(const vec3<T>& otherVec); // Return this vec3 dotted with the parameter vec3
 	vec3<T> cross(const vec3<T>& otherVec); // Return this vec3 crossed with the parameter vec3
@@ -53,6 +54,7 @@ class vec2 {
 	vec2<T> operator+(const vec2<T>& otherVec);
 	vec2<T> operator-(const vec2<T>& otherVec);
 	
+	float magnitude(); // Return the Magnitude of this vec2
 	vec2<T> normalize(); // Return the Unit Vector of this vec2
 	float dot(const vec2<T>& otherVec); // Return this vec2 dotted with the parameter vec2
 	vec2<T> cross(const vec2<T>& otherVec); // Return this vec2 crossed with the parameter vec2
